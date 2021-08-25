@@ -1,0 +1,14 @@
+Auto
+
+auto_id: 		BIGINT 			primary_key 	AUTO_INCREMENT
+km:			UNSIGNED MEDIUMINT 	NOT_NULL
+marca:			VARCHAR(50)
+modello:		VARCHAR(100)		NOT_NULL
+prezzo:			UNSIGNED INT 		NOT_NULL
+acquista/finanzia	TINYINT (boolean) 	NOT_NULL
+anno:			YEAR 			NOT_NULL
+data inserimento:	DATETIME
+scad. revisione:	DATE
+targa:			CHAR(7)			NOT_NULL
+numero di telaio:	CHAR(17)		NOT_NULL
+
