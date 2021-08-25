@@ -9,6 +9,6 @@ acquista/finanzia	TINYINT (boolean) 	NOT_NULL
 anno:			YEAR 			NOT_NULL
 data inserimento:	DATETIME
 scad. revisione:	DATE
-targa:			CHAR(7)			NOT_NULL
-numero di telaio:	CHAR(17)		NOT_NULL
+targa:			CHAR(7)			NOT_NULL  UNIQUE
+numero di telaio:	CHAR(17)		NOT_NULL  UNIQUE
 
